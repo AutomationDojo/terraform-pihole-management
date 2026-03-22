@@ -1,0 +1,51 @@
+site_name: tf-module-pihole
+site_url: https://pihole-terraform-module.automationdojo.org
+site_description: OpenTofu/Terraform modules for managing Pi-hole as code
+repo_url: https://github.com/automationDojo/tf-module-pihole
+repo_name: tf-module-pihole
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Modules:
+    - groups: modules/groups.md
+    - dns: modules/dns.md
+    - domains: modules/domains.md
+    - lists: modules/lists.md
+    - dhcp: modules/dhcp.md
+    - privacy: modules/privacy.md
+    - webserver: modules/webserver.md
