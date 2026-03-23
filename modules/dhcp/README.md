@@ -19,7 +19,7 @@ module "dhcp" {
 
   static_leases = {
     raspberry_pi = {
-      mac      = "b8:27:eb:b8:66:83"
+      mac      = "88:f5:a3:02:2d:a3"
       ip       = "192.168.1.10"
       hostname = "rasp"
     }
@@ -48,7 +48,7 @@ Static leases are imported using `MAC,IP,hostname`:
 ```hcl
 import {
   to = module.dhcp.pihole_dhcp_static_lease.leases["raspberry_pi"]
-  id = "b8:27:eb:b8:66:83,192.168.1.10,rasp"
+  id = "88:f5:a3:02:2d:a3,192.168.1.10,rasp"
 }
 ```
 

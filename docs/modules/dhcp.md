@@ -43,12 +43,8 @@ Manages Pi-hole DHCP server settings and static leases.
 
 ```hcl
 module "dhcp" {
-<<<<<<< HEAD
   source  = "AutomationDojo/management/pihole//modules/dhcp"
-  version = "1.0.4"
-=======
-  source = "github.com/AutomationDojo/terraform-pihole-management//modules/dhcp?ref=v1.0.3"
->>>>>>> 743cf3ecb8b9be637178ea90767d8fe37cf58760
+  version = "1.0.3"
 
   dhcp_settings = {
     active  = true
@@ -60,7 +56,7 @@ module "dhcp" {
 
   static_leases = {
     rasp = {
-      mac      = "b8:27:eb:b8:66:83"
+      mac      = "88:f5:a3:02:2d:a3"
       ip       = "192.168.1.210"
       hostname = "rasp"
     }
@@ -84,6 +80,6 @@ Static leases use the format `MAC,IP,hostname`:
 ```hcl
 import {
   to = module.dhcp.pihole_dhcp_static_lease.leases["rasp"]
-  id = "b8:27:eb:b8:66:83,192.168.1.210,rasp"
+  id = "88:f5:a3:02:2d:a3,192.168.1.210,rasp"
 }
 ```
