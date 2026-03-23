@@ -36,7 +36,7 @@ provider "pihole" {
 
 ```hcl
 module "groups" {
-  source = "github.com/AutomationDojo/tf-module-pihole//modules/groups?ref=v1.0.1"
+  source = "github.com/AutomationDojo/tf-module-pihole//modules/groups?ref=v1.0.2"
 
   groups = {
     Default = { enabled = true, description = "The default group" }
@@ -44,7 +44,7 @@ module "groups" {
 }
 
 module "dns" {
-  source = "github.com/AutomationDojo/tf-module-pihole//modules/dns?ref=v1.0.1"
+  source = "github.com/AutomationDojo/tf-module-pihole//modules/dns?ref=v1.0.2"
 
   upstream_servers = ["8.8.8.8", "8.8.4.4", "1.1.1.1", "1.0.0.1"]
 
@@ -56,7 +56,7 @@ module "dns" {
 }
 
 module "lists" {
-  source = "github.com/AutomationDojo/tf-module-pihole//modules/lists?ref=v1.0.1"
+  source = "github.com/AutomationDojo/tf-module-pihole//modules/lists?ref=v1.0.2"
 
   default_groups = [0]
 

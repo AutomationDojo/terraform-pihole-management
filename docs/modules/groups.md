@@ -26,7 +26,7 @@ Manages Pi-hole groups. Groups allow you to apply different blocking rules to se
 
 ```hcl
 module "groups" {
-  source = "github.com/AutomationDojo/tf-module-pihole//modules/groups?ref=v1.0.1"
+  source = "github.com/AutomationDojo/tf-module-pihole//modules/groups?ref=v1.0.2"
 
   groups = {
     Default = {

@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/AutomationDojo/tf-module-pihole/compare/v1.0.1...v1.0.2) (2026-03-23)
+
+### Bug Fixes
+
+* update docs ([dcf83c8](https://github.com/AutomationDojo/tf-module-pihole/commit/dcf83c82ddbb7a1bfcbf9b889b547bab2704cda4))
+
 ## [1.0.1](https://github.com/AutomationDojo/tf-module-pihole/compare/v1.0.0...v1.0.1) (2026-03-23)
 
 ### Bug Fixes
