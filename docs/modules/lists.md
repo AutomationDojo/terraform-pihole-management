@@ -31,7 +31,7 @@ Manages Pi-hole adlist and allowlist subscriptions.
 module "lists" {
 <<<<<<< HEAD
   source  = "AutomationDojo/management/pihole//modules/lists"
-  version = "1.0.4"
+  version = "1.0.5"
 =======
   source = "github.com/AutomationDojo/terraform-pihole-management//modules/lists?ref=v1.0.3"
 >>>>>>> 743cf3ecb8b9be637178ea90767d8fe37cf58760

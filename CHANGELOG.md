@@ -1,3 +1,9 @@
+## [1.0.5](https://github.com/AutomationDojo/terraform-pihole-management/compare/v1.0.4...v1.0.5) (2026-03-23)
+
+### Bug Fixes
+
+* update docs ([0d916f7](https://github.com/AutomationDojo/terraform-pihole-management/commit/0d916f78c03490988d6ddc419a882feefd2e574a))
+
 ## [1.0.4](https://github.com/AutomationDojo/terraform-pihole-management/compare/v1.0.3...v1.0.4) (2026-03-23)
 
 ### Bug Fixes
