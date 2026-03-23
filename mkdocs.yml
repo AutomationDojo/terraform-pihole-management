@@ -1,8 +1,8 @@
-site_name: tf-module-pihole
+site_name: terraform-pihole-management
 site_url: https://pihole-terraform-module.automationdojo.org
 site_description: OpenTofu/Terraform modules for managing Pi-hole as code
-repo_url: https://github.com/automationDojo/tf-module-pihole
-repo_name: tf-module-pihole
+repo_url: https://github.com/automationDojo/terraform-pihole-management
+repo_name: terraform-pihole-management
 
 theme:
   name: material
